@@ -17,5 +17,24 @@ namespace AppContenedores
             InitializeComponent();
         }
 
+        private void flowToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmFlow f = new FrmFlow();
+            f.ShowDialog();
+        }
+
+        private void tableToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmTabla f = new FrmTabla();
+            f.ShowDialog();
+        }
+
+        private void splitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmTabla2 f = new FrmTabla2();
+            f.WindowState = FormWindowState.Minimized;
+            f.ShowDialog();
+        }
+        //Fin
     }
 }
